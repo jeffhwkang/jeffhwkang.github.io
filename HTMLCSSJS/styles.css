@@ -1,0 +1,83 @@
+body {
+    background-color: lavender;
+    background-image: url("backgroundframe.png");
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: purple;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f44336;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.homebutton {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.welcome {
+    color: aquamarine;
+    font-size: 150%;
+}
+
+.footer {
+    color: brown;
+    font-size: 75%;
+}
+
+/*
+Important links for learning:
+https://www.w3schools.com/html/html_blocks.asp
+https://www.w3schools.com/colors/colors_names.asp
+https://medium.com/@Nathans_Tweets/the-indie-web-is-leading-a-quiet-rebellion-against-big-tech-f53e32ad11a5
+https://jamesg.blog/2024/02/19/personal-website-ideas
+https://getcubed.neocities.org/getcubed2/html/foyer
+https://stackoverflow.com/questions/46539714/select-all-occurrences-of-selected-word-in-vscode
+*/
+
+/*.navbutton:link, .navbutton:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: red;
+}*/
