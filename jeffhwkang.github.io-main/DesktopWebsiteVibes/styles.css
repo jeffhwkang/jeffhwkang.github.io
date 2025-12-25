@@ -1,0 +1,108 @@
+body {
+    background-image: url("backgroundframe.png");
+    font-family: Comic Sans, cursive;
+}
+
+.bodywindow {
+    margin-top: -6px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 4px solid rgb(219, 202, 255);
+    border-radius: 10px;
+    height: 32.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mainwindow {
+    background-color: lavender;
+    border: 7px;
+    border-color: blue;
+    border-radius: 16px;
+    /*margin: 3em auto;*/
+    margin: 3em auto 3em 6em;
+    width: 90%;
+    height: 40rem;
+}
+
+.plustab {
+    background-color: rgb(219, 202, 255);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: rgb(219, 202, 255);
+    border: 2px solid rgb(219, 202, 255);
+    color: white;
+    font-size: smaller;
+    margin-top: 5px;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.plustab:hover {
+    background-color: rgb(170, 122, 214);
+    border: 2px solid rgb(170, 122, 214);
+}
+
+.tabbutton:link, .tabbutton:visited {
+    background-color: rgb(219, 202, 255);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    font-size: smaller;
+    margin-top: 5px;
+    margin-right: -12px;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tabbutton:hover, .tabbutton:active {
+    background-color: rgb(170, 122, 214);
+}
+
+.tabitem {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tabrow {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tabs {
+    display: inline-flex;
+    margin-left: 25px;
+}
+
+.titlebar {
+    background-color: rgb(219, 202, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.titlebarbutton {
+    background-color: rgb(219, 202, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 12px;
+    width: 20px;
+    text-align: center;
+}
+
+.titlebarbutton:hover {
+    background-color: rgb(170, 122, 214);
+}
